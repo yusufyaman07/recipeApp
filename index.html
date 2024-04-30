@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/food-logo.png"
+      type="image/x-icon"
+    />
+    <!-- bs icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <img src="./images/food-logo.png" alt="" />
+          <a href="/">CHEF</a>
+        </div>
+        <div class="right">
+          <div class="search_form">
+            <form>
+              <input
+                type="text"
+                placeholder="Enter the food you want to search..."
+              />
+              <button>
+                <i class="bi bi-search"></i>
+                <span>Search</span>
+              </button>
+            </form>
+          </div>
+          <div class="likes">
+            <i class="bi bi-bookmark-heart"></i>
+            <div class="list">
+              <!-- <a href="">
+                <img src="./images/food.jpg" alt="" />
+                <p>Best Pizza Dough Ever</p>
+              </a> -->
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- main area -->
+      <main>
+        <section class="results">
+          <!-- <div class="loader">
+            <img src="./images/foodGif.gif" alt="" />
+          </div> -->
+          <!-- <a href="" class="result-link">
+            <img src="./images/food.jpg" alt="" />
+            <div class="data">
+              <h4>Best Pizza Dough Ever</h4>
+              <p>101 Cookbooks</p>
+            </div>
+          </a>
+          <a href="" class="result-link">
+            <img src="./images/food.jpg" alt="" />
+            <div class="data">
+              <h4>Best Pizza Dough Ever</h4>
+              <p>101 Cookbooks</p>
+            </div>
+          </a>
+          <a href="" class="result-link">
+            <img src="./images/food.jpg" alt="" />
+            <div class="data">
+              <h4>Best Pizza Dough Ever</h4>
+              <p>101 Cookbooks</p>
+            </div>
+          </a> -->
+        </section>
+        <section class="recipe">
+          <div class="directions">
+            <h2>How to Cook?</h2>
+            <p>
+              This recipe was carefully prepared by
+              <span>The Pioneer Woman</span> from tSearch. prepared and tested.
+              Other detailsSearch their You can access it via their website
+            </p>
+            <a href="" target="_blank">Instruction</a>
+          </div>
+        </section>
+        <section class="shopping">
+          <h2>Cart</h2>
+          <div class="button-area">
+            <button id="clear">
+              <i class="bi bi-trash-fill"></i> <span> Clear Cart</span>
+            </button>
+          </div>
+          <ul></ul>
+        </section>
+      </main>
+    </div>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
